@@ -40,6 +40,19 @@ It provides a small set of contracts plus a single default runtime `Mediator` im
 
 The library is designed to be packed as a NuGet package from `src/MediatorKit`.
 
+## Examples
+
+See `examples/MediatorKit.Examples.Console` for a small console app demonstrating:
+
+- `Send` with a request/handler
+- `Publish` with two notification handlers (sequential execution)
+- A simple pipeline behavior wrapping `Send`
+
+## Documentation
+
+- `documents/why-mediatorkit.md`
+- `documents/migration-notes.md`
+
 ## License
 
 MIT is recommended for this repository (add a `LICENSE` file when ready).

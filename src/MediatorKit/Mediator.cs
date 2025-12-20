@@ -1,14 +1,27 @@
 namespace MediatorKit;
 
+/// <summary>
+/// Default mediator implementation that resolves handlers and pipeline behaviors via <see cref="ServiceFactory"/>.
+/// </summary>
 public sealed class Mediator : IMediator
 {
     private readonly ServiceFactory _factory;
 
+    /// <summary>
+    /// Initializes a new instance of the mediator.
+    /// </summary>
+    /// <param name="factory">Service resolver used to obtain handlers and pipeline behaviors.</param>
     public Mediator(ServiceFactory factory)
     {
         _factory = factory ?? throw new ArgumentNullException(nameof(factory));
     }
 
+    /// <summary>
+    /// Publishes a notification to all handlers for the concrete notification type.
+    /// Handlers are awaited sequentially in resolver order and execution stops on the first exception.
+    /// </summary>
+    /// <param name="notification">The notification to publish.</param>
+    /// <param name="cancellationToken">The token propagated to each handler.</param>
     public Task Publish(INotification notification, CancellationToken cancellationToken = default)
     {
         if (notification is null)
@@ -19,6 +32,13 @@ public sealed class Mediator : IMediator
         return PublishCore(notification, cancellationToken);
     }
 
+    /// <summary>
+    /// Sends a request to exactly one handler for the concrete request type.
+    /// Pipeline behaviors execute in resolver order and may wrap or short-circuit the handler.
+    /// </summary>
+    /// <typeparam name="TResponse">The response type.</typeparam>
+    /// <param name="request">The request to send.</param>
+    /// <param name="cancellationToken">The token propagated through pipeline and handler.</param>
     public Task<TResponse> Send<TResponse>(IRequest<TResponse> request, CancellationToken cancellationToken = default)
     {
         if (request is null)
