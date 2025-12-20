@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>MediatorKit</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>MediatorKit Contributors</Authors>
+    <Description>Minimal in-process mediator for .NET (Send, Publish, and pipeline behaviors) with DI-agnostic resolution via ServiceFactory.</Description>
+    <RepositoryUrl>https://example.com/your-repo-url</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

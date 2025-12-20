@@ -1,0 +1,61 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorKit", "src\MediatorKit\MediatorKit.csproj", "{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorKit.Tests", "test\MediatorKit.Tests\MediatorKit.Tests.csproj", "{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A84A10E-40C5-4586-AE04-6081464CFC34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{01F5FD89-EE89-41FA-BA4D-E542C47777D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4FB69511-044E-4910-86A4-64DB45CA86E3}"
+	ProjectSection(SolutionItems) = preProject
+		00-repo-map.md = 00-repo-map.md
+		01-architecture.md = 01-architecture.md
+		02-public-api.md = 02-public-api.md
+		03-behavior-spec.md = 03-behavior-spec.md
+		04-di-integration.md = 04-di-integration.md
+		05-pipeline.md = 05-pipeline.md
+		06-notifications.md = 06-notifications.md
+		07-streaming.md = 07-streaming.md
+		08-crosscutting.md = 08-crosscutting.md
+		09-performance.md = 09-performance.md
+		10-test-matrix.md = 10-test-matrix.md
+		11-build-release.md = 11-build-release.md
+		12-traceability-index.md = 12-traceability-index.md
+		13-samples-index.md = 13-samples-index.md
+		20-v1-plan.md = 20-v1-plan.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5CF96316-83B6-4F6E-95AE-79B7CB5F66C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D7E125C1-B65F-47B9-908C-BECF2BA8C601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7} = {7A84A10E-40C5-4586-AE04-6081464CFC34}
+		{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7} = {01F5FD89-EE89-41FA-BA4D-E542C47777D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC6DA4FE-5E00-4077-8E3B-15C5B18D91B4}
+	EndGlobalSection
+EndGlobal

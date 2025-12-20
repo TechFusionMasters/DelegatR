@@ -1,0 +1,6 @@
+/.vs
+/docs
+/test/MediatorKit.Tests/bin
+/test/MediatorKit.Tests/obj
+/src/MediatorKit/obj
+/src/MediatorKit/bin
