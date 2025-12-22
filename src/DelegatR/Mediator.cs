@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Default mediator implementation that resolves handlers and pipeline behaviors via <see cref="ServiceFactory"/>.

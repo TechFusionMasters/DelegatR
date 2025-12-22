@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Represents a notification published via <see cref="IMediator.Publish(INotification, CancellationToken)"/>.

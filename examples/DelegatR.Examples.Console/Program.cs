@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using MediatorKit;
+using DelegatR;
 
 var services = new Dictionary<Type, object?>();
 

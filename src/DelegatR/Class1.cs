@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Represents a request that is dispatched via <see cref="IMediator.Send{TResponse}(IRequest{TResponse}, CancellationToken)"/>

@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Handles a notification.

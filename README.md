@@ -1,6 +1,6 @@
-# MediatorKit
+# DelegatR
 
-MediatorKit is a minimal, in-process mediator for .NET.
+DelegatR is a minimal, in-process mediator for .NET.
 
 It provides a small set of contracts plus a single default runtime `Mediator` implementation that can dispatch requests and publish notifications. Resolution is **DI-agnostic** via a `ServiceFactory` delegate.
 
@@ -38,11 +38,11 @@ It provides a small set of contracts plus a single default runtime `Mediator` im
 
 ## Packaging
 
-The library is designed to be packed as a NuGet package from `src/MediatorKit`.
+The library is designed to be packed as a NuGet package from `src/DelegatR`.
 
 ## Examples
 
-See `examples/MediatorKit.Examples.Console` for a small console app demonstrating:
+See `examples/DelegatR.Examples.Console` for a small console app demonstrating:
 
 - `Send` with a request/handler
 - `Publish` with two notification handlers (sequential execution)
@@ -50,7 +50,7 @@ See `examples/MediatorKit.Examples.Console` for a small console app demonstratin
 
 ## Documentation
 
-- `documents/why-mediatorkit.md`
+- `documents/why-delegatr.md`
 - `documents/migration-notes.md`
 
 ## License

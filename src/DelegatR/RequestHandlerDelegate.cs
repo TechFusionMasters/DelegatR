@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Delegate representing the next step in a request pipeline.

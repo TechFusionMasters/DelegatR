@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using DelegatR;
 using Xunit;
 
-namespace MediatorKit.Tests;
+namespace DelegatR.Tests;
 
 public class MediatorSendTests
 {

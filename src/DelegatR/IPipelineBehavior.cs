@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Defines a request pipeline behavior that can wrap or short-circuit request handling.

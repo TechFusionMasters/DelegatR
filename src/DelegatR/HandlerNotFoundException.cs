@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Thrown when a request handler cannot be resolved for a request sent via <see cref="IMediator.Send{TResponse}(IRequest{TResponse}, CancellationToken)"/>.

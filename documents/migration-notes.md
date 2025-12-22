@@ -1,8 +1,8 @@
 # Migration notes (conceptual)
 
-This document provides conceptual guidance for teams considering a move to MediatorKit.
+This document provides conceptual guidance for teams considering a move to DelegatR.
 
-It is not a drop-in compatibility guide. The intent is to help you align your application architecture and expectations with MediatorKit’s explicit execution rules.
+It is not a drop-in compatibility guide. The intent is to help you align your application architecture and expectations with DelegatR’s explicit execution rules.
 
 ## Core concept mapping
 
@@ -20,7 +20,7 @@ It is not a drop-in compatibility guide. The intent is to help you align your ap
 
 ## Behavioral guarantees to plan around
 
-MediatorKit’s runtime is intentionally strict and predictable:
+DelegatR’s runtime is intentionally strict and predictable:
 
 - **Send uses a single handler**
   - Each request is dispatched to exactly one handler for the concrete request type.
@@ -38,7 +38,7 @@ MediatorKit’s runtime is intentionally strict and predictable:
 
 ## What V1 does not include (and how to adapt)
 
-MediatorKit V1 intentionally excludes some capabilities to keep execution predictable and the surface area small:
+DelegatR V1 intentionally excludes some capabilities to keep execution predictable and the surface area small:
 
 - **No streaming request model**
   - If you need streaming results, consider modeling streaming as a separate abstraction in your application layer.
@@ -54,7 +54,7 @@ MediatorKit V1 intentionally excludes some capabilities to keep execution predic
 ## Mindset shifts that help migrations
 
 - **Make resolution explicit**
-  - MediatorKit expects you to provide a resolver (`ServiceFactory`) that returns the specific handler and the behavior/handler sequences.
+  - DelegatR expects you to provide a resolver (`ServiceFactory`) that returns the specific handler and the behavior/handler sequences.
 
 - **Treat publish ordering as deterministic**
   - Because publish is sequential, ordering becomes observable; design handlers to be independent whenever possible.

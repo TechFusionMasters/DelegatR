@@ -2,11 +2,11 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorKit", "src\MediatorKit\MediatorKit.csproj", "{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatR", "src\DelegatR\DelegatR.csproj", "{F624CAB7-D3C2-4BF8-951F-6FA100FD15A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorKit.Tests", "test\MediatorKit.Tests\MediatorKit.Tests.csproj", "{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatR.Tests", "test\DelegatR.Tests\DelegatR.Tests.csproj", "{6B2B44BF-5CD7-4E0E-9CF4-3BE7C8BAFCB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorKit.Examples.Console", "examples\MediatorKit.Examples.Console\MediatorKit.Examples.Console.csproj", "{9A6DB678-5D79-41FE-9A85-DA5D03EBF4A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatR.Examples.Console", "examples\DelegatR.Examples.Console\DelegatR.Examples.Console.csproj", "{9A6DB678-5D79-41FE-9A85-DA5D03EBF4A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A84A10E-40C5-4586-AE04-6081464CFC34}"
 EndProject

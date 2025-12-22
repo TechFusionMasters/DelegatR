@@ -1,4 +1,4 @@
-namespace MediatorKit;
+namespace DelegatR;
 
 /// <summary>
 /// Dispatches requests to a single handler and publishes notifications to all handlers.

@@ -1,6 +1,6 @@
-# Why MediatorKit
+# Why DelegatR
 
-MediatorKit exists to provide a small, predictable in-process mediator for .NET applications.
+DelegatR is a minimal, in-process mediator for .NET applications.
 
 ## What problem it solves
 
@@ -10,11 +10,11 @@ Many applications need a simple way to:
 - Orchestrate application workflows without tightly coupling layers
 - Apply cross-cutting concerns consistently (validation, logging, timing, retries) without scattering code across handlers
 
-MediatorKit provides a minimal set of contracts and a single default runtime implementation that supports these needs without requiring a specific dependency injection container.
+DelegatR provides a minimal set of contracts and a single default runtime implementation that supports these needs without requiring a specific dependency injection container.
 
 ## Core guarantees (V1)
 
-MediatorKit is designed around a few explicit execution rules:
+DelegatR is designed around a few explicit execution rules:
 
 - **Send uses exactly one handler**
   - A request is dispatched to a single handler for the concrete request type.
@@ -43,7 +43,7 @@ V1 keeps the surface area small and avoids features that typically increase comp
 
 ## Who it’s for
 
-MediatorKit is a fit when you want:
+DelegatR is a fit when you want:
 
 - Enterprise applications that value predictable, testable orchestration
 - Internal platforms that need a stable, minimal contract layer
@@ -54,4 +54,4 @@ It may not be a fit if you require rich built-in registration/scanning features 
 
 ## Clean-room note
 
-MediatorKit’s design and implementation in this repository are based on the behavior and requirements described in the project’s own documentation and tests.
+This repository contains a clean-room implementation named DelegatR.

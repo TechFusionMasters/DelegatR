@@ -5,11 +5,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>MediatorKit</PackageId>
+    <PackageId>DelegatR</PackageId>
+    <AssemblyName>DelegatR</AssemblyName>
+    <RootNamespace>DelegatR</RootNamespace>
     <Version>0.1.0-preview.1</Version>
     <Authors>JeevanandanJ/TechFusionMasters</Authors>
-    <Description>Minimal, deterministic in-process mediator for .NET with request/notification dispatch and pipeline behaviors.</Description>
-    <RepositoryUrl>https://github.com/TechFusionMasters/MediatorKit</RepositoryUrl>
+    <Description>Minimal, deterministic in-process mediator for .NET with request/notification dispatch and pipeline behaviors (DelegatR).</Description>
+    <RepositoryUrl>https://github.com/TechFusionMasters/DelegatR</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>

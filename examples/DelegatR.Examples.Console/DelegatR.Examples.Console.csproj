@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MediatorKit\MediatorKit.csproj" />
+    <ProjectReference Include="..\..\src\DelegatR\DelegatR.csproj" />
   </ItemGroup>
 
 </Project>
