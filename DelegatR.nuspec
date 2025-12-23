@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$authors$</authors>
+    <owners>$authors$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <projectUrl>$projectUrl$</projectUrl>
+    <repository type="git" url="$repositoryUrl$" />
+    <description>$description$</description>
+    <readme>README.md</readme>
+    <tags>mediator pattern cqrs dotnet library DelegatR</tags>
+  </metadata>
+
+  <files>
+    <file src="src\DelegatR\bin\$Configuration$\net8.0\DelegatR.dll" target="lib\net8.0" />
+    <file src="src\DelegatR\bin\$Configuration$\net8.0\DelegatR.xml" target="lib\net8.0" />
+    <file src="src\DelegatR\bin\$Configuration$\net8.0\DelegatR.pdb" target="lib\net8.0" />
+    <file src="README.md" target="" />
+    <file src="LICENSE" target="" />
+  </files>
+</package>
