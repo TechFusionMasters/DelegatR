@@ -4,20 +4,25 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>DelegatR</PackageId>
     <AssemblyName>DelegatR</AssemblyName>
     <RootNamespace>DelegatR</RootNamespace>
-    <Version>0.1.0-preview.1</Version>
     <Authors>JeevanandanJ/TechFusionMasters</Authors>
     <Description>Minimal, deterministic in-process mediator for .NET with request/notification dispatch and pipeline behaviors (DelegatR).</Description>
     <RepositoryUrl>https://github.com/TechFusionMasters/DelegatR</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageTags>mediator pattern cqrs dotnet library DelegatR</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Version="3.6.133" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>
